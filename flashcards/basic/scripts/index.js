@@ -1,4 +1,4 @@
-<script>
+
 // 2. Create an array of question and answer objects. It should be at least three different objects.
 let myFlashcards = [
     {
@@ -66,4 +66,3 @@ function onMouseOut() {
 
 
 displayCard(currentIndex);
-</script>
