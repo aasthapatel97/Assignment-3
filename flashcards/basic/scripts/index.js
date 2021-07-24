@@ -2,16 +2,16 @@
 // 2. Create an array of question and answer objects. It should be at least three different objects.
 let myFlashcards = [
     {
-        question: 'What is your favorite color?',
-        answer: 'red',
+        question: 'What is the capital of India?',
+        answer: 'New Delhi',
     },
     {
-        question: 'What is the biggest plant?',
-        answer: 'Earth'
+        question: 'Which is the National Bird of India?',
+        answer: 'Peacock'
     },
     {
-        question: 'What is the highest mountain?',
-        answer: 'Elebest'
+        question: 'When does India celebrate its independence day?',
+        answer: '15th August'
     }
 ];
 
