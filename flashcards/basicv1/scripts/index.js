@@ -1,19 +1,20 @@
+
 // 2. Create an array of question and answer objects. It should be at least three different objects.
 let myFlashcards = [
     {
         question: 'What is the capital of India?',
         answer: 'New Delhi',
-        img: "Answer1.jpeg",
+        img: "Answer1.jpeg"
     },
     {
         question: 'Which is the National Bird of India?',
-        answer: 'Peacock'
-        img: "Answer2.jpeg",
+        answer: 'Peacock',
+        img: "Answer2.jpeg"
     },
     {
         question: 'When does India celebrate its independence day?',
-        answer: '15th August'
-        img: "Answer3.jpeg",
+        answer: '15th August',
+        img: "Answer3.jpeg"
     }
 ];
 
@@ -47,7 +48,7 @@ function displayCard(index) {
     document.getElementById('number').innerText = 'Question #' + (index + 1);
     document.getElementById('question').innerText = myFlashcards[index].question;
     document.getElementById('tooltip').style.display = 'none';
-    document.getElementById('answer').innerText = myFlashcards[currentIndex].answer;
+    document.getElementById('answer').innerText = '';
 }
 
 // when select question, display answer
@@ -58,13 +59,13 @@ function onSelectQuestion(event) {
 
 // when hover on question, show tooltip 
 function onMouseOver() {
-   document.getElementById('tooltip').style.display = 'block';
+    document.getElementById('tooltip').style.display = 'block';
 }
 
 // when leave on question, hide tooltip 
-//function onMouseOut() {
-  //  document.getElementById('tooltip').style.display = 'none';
-//}
+function onMouseOut() {
+    document.getElementById('tooltip').style.display = 'none';
+}
 
 
 displayCard(currentIndex);
