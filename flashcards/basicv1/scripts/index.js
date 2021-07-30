@@ -51,15 +51,15 @@ function displayCard(index) {
 }
 
 // when select question, display answer
-//function onSelectQuestion(event) {
-    //event.stopPropagation();
-    //document.getElementById('answer').innerText = myFlashcards[currentIndex].answer;
-//}
+function onSelectQuestion(event) {
+    event.stopPropagation();
+    document.getElementById('answer').innerText = myFlashcards[currentIndex].answer;
+}
 
 // when hover on question, show tooltip 
-//function onMouseOver() {
-  //  document.getElementById('tooltip').style.display = 'block';
-//}
+function onMouseOver() {
+   document.getElementById('tooltip').style.display = 'block';
+}
 
 // when leave on question, hide tooltip 
 //function onMouseOut() {
