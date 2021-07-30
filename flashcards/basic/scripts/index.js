@@ -4,14 +4,17 @@ let myFlashcards = [
     {
         question: 'What is the capital of India?',
         answer: 'New Delhi',
+        img: "Answer1.jpeg",
     },
     {
         question: 'Which is the National Bird of India?',
         answer: 'Peacock'
+        img: "Answer2.jpeg",
     },
     {
         question: 'When does India celebrate its independence day?',
         answer: '15th August'
+        img: "Answer3.jpeg",
     }
 ];
 
